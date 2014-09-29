@@ -2,7 +2,7 @@
   "name": "tidal-js-sandbox",
   "version": "0.0.1",
   "description": "tidal-js-sandbox is a project that serve a safe sandbox to run the node.js code.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha"
   },
@@ -25,5 +25,8 @@
   "homepage": "https://github.com/TidalAPI/tidal-js-sandbox",
   "devDependencies": {
     "mocha": "^1.21.4"
+  },
+  "dependencies": {
+    "sandbox": "^0.8.6"
   }
 }
